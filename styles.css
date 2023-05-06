@@ -1,0 +1,181 @@
+body {
+  margin: 10px;
+  background-color: white;
+  background-color: #dfffd8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.center {
+  text-align: center;
+}
+
+h3 {
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2a2f4f;
+
+  padding: 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  justify-content: flex-end;
+}
+li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+form {
+  background-color: #151f30;
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  all: unset;
+  font: 15px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+}
+.content-container {
+  margin-top: 5rem;
+}
+
+.book {
+  padding: 20px;
+}
+.each-book {
+  margin-bottom: 40px;
+}
+
+table,
+td,
+th {
+  border: 1px solid #c4dcf3;
+  /* border: 2px solid #2b3467; */
+  border-left: 0;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #427fef;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-radius: 5px;
+}
+th {
+  width: 30%;
+}
+td {
+  width: 70%;
+  font-weight: 600;
+  white-space: pre;
+}
+
+tr:nth-child(odd) {
+  background-color: #eef7ff;
+}
+
+.table {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  outline: 0;
+}
+
+.display-hidden {
+  display: none;
+}
+
+.display-none {
+  display: none;
+}
+
+.topnav {
+  position: fixed;
+  right: 0;
+  width: 100%;
+  top: 0;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #2a2f4f;
+
+  color: white;
+  text-align: center;
+}
+
+.footer-line {
+  color: white;
+  padding-top: 3px;
+}
+
+button {
+  outline: 0;
+  height: 1.7rem;
+  width: 100%;
+  font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .topnav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+  }
+  .topnav a {
+    padding: 2px 5px;
+  }
+  .page-number {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 2px;
+    padding-top: 2px;
+  }
+  button {
+    height: 100%;
+  }
+}
